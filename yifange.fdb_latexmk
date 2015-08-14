@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1437411264 "yifange.tex" "yifange.pdf" "yifange" 1437411276
+["pdflatex"] 1439530684 "yifange.tex" "yifange.pdf" "yifange" 1439530685
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -32,8 +32,8 @@
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "resume.cls" 1437344305 5034 548fe11139c8b3904021084def5814e6 ""
-  "yifange.aux" 1437411264 8 a94a2480d3289e625eea47cd1b285758 ""
-  "yifange.tex" 1437411251 7421 fc0bd4d0b7c41eebf977a4990267cd31 ""
+  "yifange.aux" 1439530685 8 a94a2480d3289e625eea47cd1b285758 ""
+  "yifange.tex" 1439530654 7424 572cb966e3d7fefc38d5512171b95f25 ""
   (generated)
   "yifange.pdf"
   "yifange.aux"
