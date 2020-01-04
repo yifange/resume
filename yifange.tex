@@ -22,11 +22,10 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.35in,top=0.3in,right=0.35in,bottom=0.3in]{geometry} % Document margins
+\usepackage[left=0.3in,top=0.1in,right=0.3in,bottom=0.1in]{geometry} % Document margins
 
 \name{Yifan Ge} % Your name
-\address{34768 Swain Cmn., Fremont, CA 94555 \\ (408) 769-8746 \\ yifan.ge@outlook.com} % Your address
-% \address{(408) 769-8746 \\ yifan.ge@outlook.com} % Your phone number and email
+\address{34768 Swain Cmn., Fremont, CA 94555 \\ (408) 769-8746 \\ yifange101@gmail.com}
 
 \begin{document}
 
@@ -50,14 +49,15 @@
 \begin{rSection}{Experience}
 
 \begin{rSubsection}{Google Inc.}{Nov. 2015 - Present}{Software Engineer}{Mountain View, CA}
-\item Full-stack developer of Google Issue Tracker, a bug tracking tool used both internally across Google and externally to power open source projects.
-\item Technical interviewer for Software Engineering roles.
+\item Full-stack developer on \textbf{Google Issue Tracker}, a bug tracking tool used both internally across Google and externally by open-source projects.
+\item Technical interviewer for technical roles.
+\item Contributor of Angular Material, an open-source UI component library.
 
 \end{rSubsection}
 
 \begin{rSubsection}{Motorola Mobility}{Jul. 2014 - Aug. 2015}{Software Engineer}{Sunnyvale, CA}
-\item Full-stack developer and tech lead for the data analytics portal built on cloud platform using Golang and AngularJS.
-\item Perform code reviewer for the broader team.
+\item Full-stack developer and tech lead for a data analytics portal built on Google cloud platform using Golang and AngularJS.
+\item Code reviewer for the broader team.
 \item Technical interviewer for development roles.
 \item 3rd place team winner of the 1st Motorola Global Hackathon across Bangalore, Chicago, Sao Paulo and Sunnyvale.
 \end{rSubsection}
@@ -74,45 +74,31 @@
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Publications and Presentations}
-{\bf Oral Presentation:} Xi Zhou; {\bf Yifan Ge}; Xuxu Chen; Yinan Jing; Weiwei Sun; , {\em `A Distributed Cache Based Reliable Service Execution and Recovery Approach in MANETs'}, The 6th IEEE International Conference on Asia-Pacific Services Computing Conference, Jeju-do, South Korea, Dec. 2011.
-
-{\bf Poster Presentation:} Xi Zhou; {\bf Yifan Ge}; Xuxu Chen; Yinan Jing; Weiwei Sun; , {\em `SMF: A Novel Lightweight Reliable Service Discovery Approach in MANET'}, The 7th International Conference on Wireless Communications, Networking and Mobile Computing, Wuhan, China, Sept. 2011.
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
 %	SELECTED PROJECTS
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Selected Projects}
 \begin{rSubsection}{Social Networking Website (Course Project of Object Oriented Software Engineering)}{Fall 2013}{Team Lead}{Baltimore, MD}
 % \item Course Project of {\em Object Oriented Software Engineering}.
-\item Established a social networking featuring finer content organization. Posts are categorized into topics subscribed by the users.
+\item Built a social networking website featuring content organization of finer granularity. Posts are categorized into topics that can be subscribed by the users.
 % \item	Website constructed in a two-tier manner. Backend written in Ruby on Rails and frontend in AngularJS as a Single Page Application.
-\item Conceived the concept of the project, initial database design and the project framework.
+\item Proposed the concept of the project, initial database design and the project framework.
 \item Initiated the backend APIs, implemented major parts of the frontend logic and user interface, and maintained project homepage and documentations.
-\item Techniques used: Ruby on Rails, RSpec, Grunt, AngularJS, Bootstrap.
+\item App built with AngularJS, Ruby on Rails, Bootstrap.
 \end{rSubsection}
 %--------------------------------
 \begin{rSubsection}{Framework for Natural Interaction with Large Scaled Wall Displays}{Fall 2013}{Team Member}{Baltimore, MD}
-\item Collaborated in the development of the software framework for a high resolution, 25 megapixel
-display system which leverages the Robot Operating System (ROS) libraries to interface with Microsoft Kinect for gestural input.
-\item Remodeled the existing app manager and built an extensible tooltip subsystem to support
-multimedia for usage instructions.
-\item Implemented a 3D menu based on Qt and OpenGL. Coded and trained human body gestures for VR
-interactions with the menu.
-\item Techniques used: Python, Qt, OpenGL, ROS.
+\item Collaborated on the development of a software framework for a high resolution, 25 megapixel
+display system, which was built on top of \textbf{Robot Operating System (ROS)}. The system uses Mircosoft Kinect for gestural inputs.
+\item Re-worked the existing app manager and built an extensible tooltip subsystem in \textbf{Python} to support
+multimedia in usage instructions.
+\item Implemented a 3D app menu with \textbf{Qt} and \textbf{OpenGL}. Implemented the app and trained human body gestures to interact with the app.
 \end{rSubsection}
 %--------------------------------
 \begin{rSubsection}{DSL for Programming Education (Course Project of Functional Programming at Work)}{Fall 2012}{Team Lead}{Baltimore, MD}
 % \item Course Project of {\em Functional Programming at Work}.
-\item Designed and developed a system for programming education through the form of a
-side-scrolling game. The system reads the script input by the user, and translates it into the movements of the game character.
-\item Game implemented in Haskell, SDL, and some other open source resources.
+\item Designed and developed a side-scrolling game for programming education. The player of the game uses progamming scripts to control the movement of the game character.
+\item Game implemented in \textbf{Haskell}, \textbf{SDL}.
 % \item Defined a state-machine-styled domain specific language to control the game character.
-\item Techniques used: Haskell, SDL.
 \end{rSubsection}
 \end{rSection}
 %----------------------------------------------------------------------------------------
@@ -122,8 +108,8 @@ side-scrolling game. The system reads the script input by the user, and translat
 \begin{rSection}{Technical Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
-Languages & Python, JavaScript, Golang, Ruby, C, C++, Java, Haskell, OCaml, Rust \\
-Frameworks \& Platforms & AngularJS, Ruby on Rails, Google Cloud Platform \\
+Languages & JavaScript, TypeScript, Java, Python \\
+Frameworks \& Platforms & Angular, AngularJS, Google Cloud Platform \\
 Tools & Linux, shell, git, Vim
 \end{tabular}
 
@@ -140,5 +126,15 @@ Tools & Linux, shell, git, Vim
 %\end{rSection}
 
 %----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications and Presentations}
+{\bf Oral Presentation:} Xi Zhou; {\bf Yifan Ge}; Xuxu Chen; Yinan Jing; Weiwei Sun; , {\em `A Distributed Cache Based Reliable Service Execution and Recovery Approach in MANETs'}, The 6th IEEE International Conference on Asia-Pacific Services Computing Conference, Jeju-do, South Korea, Dec. 2011.
+
+{\bf Poster Presentation:} Xi Zhou; {\bf Yifan Ge}; Xuxu Chen; Yinan Jing; Weiwei Sun; , {\em `SMF: A Novel Lightweight Reliable Service Discovery Approach in MANET'}, The 7th International Conference on Wireless Communications, Networking and Mobile Computing, Wuhan, China, Sept. 2011.
+\end{rSection}
+
 
 \end{document}
