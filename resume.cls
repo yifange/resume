@@ -4,7 +4,7 @@
 % This template has been downloaded from:
 % http://www.LaTeXTemplates.com
 %
-% This class file defines the structure and design of the template.
+% This class file defines the structure and design of the template. 
 %
 % Original header:
 % Copyright (C) 2010 by Trey Hunner
@@ -20,15 +20,15 @@
 
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
-\LoadClass[9pt,letterpaper]{article} % Font size and paper type
+\LoadClass[11pt,letterpaper]{article} % Font size and paper type
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
-\usepackage{xcolor}
+\usepackage{fontawesome5} 
+\usepackage{hyperref}
 
 \pagestyle{empty} % Suppress page numbers
-
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
 %----------------------------------------------------------------------------------------
@@ -38,7 +38,7 @@
 
 \def \addressSep {$\diamond$} % Set default address separator to a diamond
 
-% One, two or three address lines can be specified
+% One, two or three address lines can be specified 
 \let \@addressone \relax
 \let \@addresstwo \relax
 \let \@addressthree \relax
@@ -92,18 +92,15 @@
 %----------------------------------------------------------------------------------------
 %	SECTION FORMATTING
 %----------------------------------------------------------------------------------------
-\definecolor{shadecolor}{RGB}{0,0,0}
-\newcommand{\shadebox}[1]{
-\colorbox{shadecolor}{\parbox{\dimexpr\textwidth-2.5\fboxsep}{\textcolor{white!0}{#1}}}}
-% \mybox{\textsc{Extra Curricular Achievements}}
+
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{ % 1 input argument - section name
-  % \sectionskip
-  {\shadebox{\textsc{\bf #1}}} % Section title
-  % \sectionlineskip
-  % \hrule % Horizontal line
+  \sectionskip
+  \MakeUppercase{\bf #1} % Section title
+  \sectionlineskip
+  \hrule % Horizontal line
   \begin{list}{}{ % List for each individual item in the section
-    \setlength{\leftmargin}{0em} % Margin within the section
+    \setlength{\leftmargin}{1.5em} % Margin within the section
   }
   \item[]
 }{
@@ -121,15 +118,15 @@
   {\em #3} \hfill {\em #4} % Italic job title and location
   }\smallskip
   \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
-   \itemsep -0.6em \vspace{-0.6em} % Compress items in list together for aesthetics
+   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
   }{
   \end{list}
   \vspace{0.5em} % Some space after the list of bullet points
 }
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
-\def\namesize{\large} % Size of the name at the top of the document
+\def\namesize{\huge} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
-\def\sectionlineskip{\smallskip} % The space above the horizontal line for each section
-\def\nameskip{\smallskip} % The space after your name at the top
-\def\sectionskip{\smallskip} % The space after the heading section
+\def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
+\def\nameskip{\bigskip} % The space after your name at the top
+\def\sectionskip{\medskip} % The space after the heading section

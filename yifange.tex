@@ -22,119 +22,62 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.3in,top=0.1in,right=0.3in,bottom=0.1in]{geometry} % Document margins
+\usepackage[left=0.8in,top=0.5in,right=0.8in,bottom=0.5in]{geometry} % Document margins
 
-\name{Yifan Ge} % Your name
-\address{34768 Swain Cmn., Fremont, CA 94555 \\ (408) 769-8746 \\ yifange101@gmail.com}
+\name{Yifan Ge} 
+\address{34769 Swain Cmn., Fremont, CA 94555}
+\address{\raisebox{-0.1\height}\faLinkedin \  \url{https://www.linkedin.com/in/yifange} \\ \raisebox{-0.1\height}\faGithub \ \url{https://www.github.com/yifange}}
+\address{(408) 769-8746 \\ \href{mailto:yifange101@gmail.com}{yifange101@gmail.com}}
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Education}
-{\bf Johns Hopkins University} \hfill {\bf Baltimore, MD} \\
-{Master of Engineering in Computer Science} {\em GPA: 3.76/4.00} \hfill {Sept. 2012 - May 2014}
-
-{\bf Fudan University} \hfill {\bf Shanghai, China} \\
-{Bachelor of Science in Information Security} {\em Major GPA: 3.59/4.00} \hfill {Sept. 2008 - Jul. 2012}
+\begin{rSection}{Summary}
+  Hands-on and versatile fullstack Software Engineer with 6+ years of industry experience. Working knowledge of complete project development life cycles, including requirement specification, design, development, metric tracking, documentation, testing, integration and launch of projects. 
+  Extensive experience in web user interface and web accessibility. Strong in problem solving and cross-functional collaboration.
 \end{rSection}
 
+\begin{rSection}{Technical Skills}
+  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+  Computer Languages & JavaScript, TypeScript, Java, Python, SQL \\
+  Frameworks & Angular, AngularJS \\
+  Tools & Git, Mercurial
+  \end{tabular}
+\end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Experience}
+\begin{rSection}{Professional Experience}
 
 \begin{rSubsection}{Google Inc.}{Nov. 2015 - Present}{Software Engineer}{Mountain View, CA}
-\item Full-stack developer on \textbf{Google Issue Tracker}, a bug tracking tool used both internally across Google and externally by open-source projects.
-\item Technical interviewer for technical roles.
+\item Full-stack developer on \textbf{Google Issue Tracker}, a bug tracking tool used both internally by Google employees and externally by users of Google products (Android, Chrome, GCP, etc.). The tool has 100,000+ Daily Active Users internally.
+\item Work closely with UX designers and PMs on product designs.
+\item Use Google Analytics and other data analyzing tools to gather metrics and understand user behaviors.
 \item Contributor of Angular Material, an open-source UI component library.
+\item Core maintainer of a popular Chrome extension that improves usability of internal tools. The extension has 13,000+ users inside Google.
+\item \textbf{Technology}: Angular, TypeScipt, JavaScript, Java, Python, SQL, Sass, CSS, HTML, Mercurial
 
 \end{rSubsection}
 
 \begin{rSubsection}{Motorola Mobility}{Jul. 2014 - Aug. 2015}{Software Engineer}{Sunnyvale, CA}
-\item Full-stack developer and tech lead for a data analytics portal built on Google cloud platform using Golang and AngularJS.
-\item Code reviewer for the broader team.
-\item Technical interviewer for development roles.
+\item Full-stack developer and tech lead for a data analytics web tool built on Google App Engine.
 \item 3rd place team winner of the 1st Motorola Global Hackathon across Bangalore, Chicago, Sao Paulo and Sunnyvale.
+\item \textbf{Technology}: AngularJS, JavaScript, Golang, CSS, HTML, Git
 \end{rSubsection}
 
-%------------------------------------------------
-
-%% \begin{rSubsection}{Fudan University - Mobile Data Management Lab}{Sept. 2010 - Jul. 2012}{Reseach Assistant, Team Lead}{Shanghai, China}
-%% \item Designed a quality-aware proactive service discovery protocol for Mobile Ad-hoc Networks.
-%% \item Implemented and evaluated the protocol in a network simulator using C.
-%% \item Analyzed the data and published two academic papers as 2nd authors in international conferences.
-%% \end{rSubsection}
-
-%------------------------------------------------
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	SELECTED PROJECTS
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Selected Projects}
-\begin{rSubsection}{Social Networking Website (Course Project of Object Oriented Software Engineering)}{Fall 2013}{Team Lead}{Baltimore, MD}
-% \item Course Project of {\em Object Oriented Software Engineering}.
-\item Built a social networking website featuring content organization of finer granularity. Posts are categorized into topics that can be subscribed by the users.
-% \item	Website constructed in a two-tier manner. Backend written in Ruby on Rails and frontend in AngularJS as a Single Page Application.
-\item Proposed the concept of the project, initial database design and the project framework.
-\item Initiated the backend APIs, implemented major parts of the frontend logic and user interface, and maintained project homepage and documentations.
-\item App built with AngularJS, Ruby on Rails, Bootstrap.
+\begin{rSubsection}{Music Kids}{Jul. 2013 - Sep. 2013}{Web Developer Intern}{Baltimore, MD}
+\item Led a team of interns and built a student attendance tracking and course scheduling system.
+\item Designed and implemented the full tech stack.
+\item \textbf{Technology}: jQuery, Ruby on Rails, Bootstrap, CoffeeScript, CSS, HTML, MySQL, Git
 \end{rSubsection}
-%--------------------------------
-\begin{rSubsection}{Framework for Natural Interaction with Large Scaled Wall Displays}{Fall 2013}{Team Member}{Baltimore, MD}
-\item Collaborated on the development of a software framework for a high resolution, 25 megapixel
-display system, which was built on top of \textbf{Robot Operating System (ROS)}. The system uses Mircosoft Kinect for gestural inputs.
-\item Re-worked the existing app manager and built an extensible tooltip subsystem in \textbf{Python} to support
-multimedia in usage instructions.
-\item Implemented a 3D app menu with \textbf{Qt} and \textbf{OpenGL}. Implemented the app and trained human body gestures to interact with the app.
-\end{rSubsection}
-%--------------------------------
-\begin{rSubsection}{DSL for Programming Education (Course Project of Functional Programming at Work)}{Fall 2012}{Team Lead}{Baltimore, MD}
-% \item Course Project of {\em Functional Programming at Work}.
-\item Designed and developed a side-scrolling game for programming education. The player of the game uses progamming scripts to control the movement of the game character.
-\item Game implemented in \textbf{Haskell}, \textbf{SDL}.
-% \item Defined a state-machine-styled domain specific language to control the game character.
-\end{rSubsection}
-\end{rSection}
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Technical Skills}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
-Languages & JavaScript, TypeScript, Java, Python \\
-Frameworks \& Platforms & Angular, AngularJS, Google Cloud Platform \\
-Tools & Linux, shell, git, Vim
-\end{tabular}
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	EXAMPLE SECTION
-%----------------------------------------------------------------------------------------
 
-%\begin{rSection}{Section Name}
 
-%Section content\ldots
+\begin{rSection}{Education}
+{\bf Johns Hopkins University} \hfill {\bf Baltimore, MD} \\
+{Master of Engineering in Computer Science} \hfill {Sept. 2012 - May 2014}
 
-%\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Publications and Presentations}
-{\bf Oral Presentation:} Xi Zhou; {\bf Yifan Ge}; Xuxu Chen; Yinan Jing; Weiwei Sun; , {\em `A Distributed Cache Based Reliable Service Execution and Recovery Approach in MANETs'}, The 6th IEEE International Conference on Asia-Pacific Services Computing Conference, Jeju-do, South Korea, Dec. 2011.
-
-{\bf Poster Presentation:} Xi Zhou; {\bf Yifan Ge}; Xuxu Chen; Yinan Jing; Weiwei Sun; , {\em `SMF: A Novel Lightweight Reliable Service Discovery Approach in MANET'}, The 7th International Conference on Wireless Communications, Networking and Mobile Computing, Wuhan, China, Sept. 2011.
+{\bf Fudan University} \hfill {\bf Shanghai, China} \\
+{Bachelor of Science in Information Security} \hfill {Sept. 2008 - Jul. 2012}
 \end{rSection}
-
 
 \end{document}
