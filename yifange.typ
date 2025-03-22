@@ -39,7 +39,7 @@
 #custom-title("Experience")[
   #work-heading("Senior Software Engineer", "Apple Inc", "Cupertino, CA", datetime(year:2022, month:1, day:1), "Present")[
     - Develop and maintain *iCloud.com* and various iCloud web services, optimizing performance for millions of active users.
-    - Project DRI for *iCloud Drive Web App*, led a small team of engineers, managing project planning and technical execution.
+    - *Project DRI* for iCloud Drive Web App, led a small team of engineers, managing project planning and technical execution.
     - Designed and implemented visually rich, high-performance UIs while ensuring seamless user experiences.
     - Advocated for *web accessibility best practices*, improving usability for a diverse user base.
     - Collaborated with product, design, and backend teams to define, develop, and deliver core product features.
@@ -51,7 +51,7 @@
     - Designed and developed user-friendly and accessible UI components with Angular and TypeScript.
     - Built scalable *gRPC-based APIs and Java backend services*, improving system efficiency and performance.
     - Led development of a *Chrome extension* with 13,000+ users, streamlining internal workflows.
-    - Contributed to Angular Material, an open-source UI library widely adopted by frontend developers, enhancing accessibility and UI component usability.
+    - Contributed to *Angular Material*, an open-source UI library widely adopted by frontend developers, enhancing accessibility and UI component usability.
     - *Tech Stack:* Angular, TypeScript, JavaScript, Java, Protobuf, Python, SQL, Sass, CSS, HTML
   ]
 
