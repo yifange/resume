@@ -51,7 +51,7 @@
     - Designed and developed user-friendly and accessible UI components with Angular and TypeScript.
     - Built scalable *gRPC-based APIs and Java backend services*, improving system efficiency and performance.
     - Led development of a *Chrome extension* with 13,000+ users, streamlining internal workflows.
-    - Contributed to Angular Material, enhancing accessibility and UI component usability.
+    - Contributed to Angular Material, an open-source UI library widely adopted by frontend developers, enhancing accessibility and UI component usability.
     - *Tech Stack:* Angular, TypeScript, JavaScript, Java, Protobuf, Python, SQL, Sass, CSS, HTML
   ]
 
