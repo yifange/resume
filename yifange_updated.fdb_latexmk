@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742790686.1814 "/Users/yifange/workspace/resume/yifange_updated.tex" "yifange_updated.pdf" "yifange_updated" 1742790686.65457 0
-  "/Users/yifange/workspace/resume/yifange_updated.tex" 1742790685.89049 5027 67f97bd982f4031f06c655bfd54a8f54 ""
+["pdflatex"] 1742793687.22955 "/Users/yifange/workspace/resume/yifange_updated.tex" "yifange_updated.pdf" "yifange_updated" 1742793687.77203 0
+  "/Users/yifange/workspace/resume/yifange_updated.tex" 1742793687.0032 4973 ab844321b584f3af624a15c8a843f016 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1710106625 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/fontname/texfonts.map" 1710106625 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1710106625 5472554 f7861620179a71a79d4bd86251f559d0 ""
@@ -64,9 +64,9 @@
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/web2c/texmf.cnf" 1710106625 41652 e14926ab86fde7902cad99d9eeaa5ca5 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1710106625 8221880 586024644079ee3bb0c221d6d52d1611 ""
   "resume.cls" 1742790636.70188 4888 590dfc19ec63fbfac488daad9337afef ""
-  "yifange_updated.aux" 1742790686.60855 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "yifange_updated.out" 1742790686.45295 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "yifange_updated.tex" 1742790685.89049 5027 67f97bd982f4031f06c655bfd54a8f54 ""
+  "yifange_updated.aux" 1742793687.71998 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "yifange_updated.out" 1742793687.54305 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "yifange_updated.tex" 1742793687.0032 4973 ab844321b584f3af624a15c8a843f016 ""
   (generated)
   "yifange_updated.aux"
   "yifange_updated.log"
