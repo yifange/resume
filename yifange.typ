@@ -28,11 +28,21 @@
 
 #custom-title("Technical Skills")[
   #skills()[
-    - *Languages:* JavaScript, TypeScript, Java, Python, Go, Swift, SQL
-    - *Frontend:* React, Angular, AngularJS, Webpack, Sass, CSS/HTML
-    - *Backend & APIs:* gRPC, RESTful APIs, Node.js
-    - *Infrastructure & Tools:* Google Cloud, Git, CI/CD
-    - *Other:* Machine Learning, Web Accessibility (a11y), Chrome Extensions
+  #table(
+    columns: 2,
+    inset: (y: 0.32em, x: 0.3em),
+    stroke: none,
+    [*Languages* ], [JavaScript, TypeScript, Java, Python, Go, Swift, SQL],
+    [*Frontend*], [React, Angular, AngularJS, Webpack, Sass, CSS, HTML],
+    [*Backend & APIs*], [gRPC, RESTful APIs, Node.js],
+    [*Infrastructure & Tools*], [Google Cloud, Git, CI/CD],
+    [*Other*],  [Machine Learning, Web Accessibility (a11y), Chrome Extensions]
+  )
+    // - *Languages:* JavaScript, TypeScript, Java, Python, Go, Swift, SQL
+    // - *Frontend:* React, Angular, AngularJS, Webpack, Sass, CSS/HTML
+    // - *Backend & APIs:* gRPC, RESTful APIs, Node.js
+    // - *Infrastructure & Tools:* Google Cloud, Git, CI/CD
+    // - *Other:* Machine Learning, Web Accessibility (a11y), Chrome Extensions
   ]
 ]
 
